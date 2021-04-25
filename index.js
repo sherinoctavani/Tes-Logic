@@ -22,7 +22,7 @@
 // twin([2, 3, 4, 2, 2, 4])
 
 function twin (arr) {
-    obj = {}
+    let obj = {}
     let result = []
     for (let i = 0; i < arr.length; i++){
       if (!obj[arr[i]]) {
